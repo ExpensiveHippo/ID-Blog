@@ -29,7 +29,8 @@
                 </div>
 
                 <p>As a start to my journey in Interactive Development (ID), I learnt about basic HTML tags like &lt;head&gt;, &lt;p&gt; and &lt;div&gt;. The structure of a basic html file is as follows:
-    <span>
+    <span class="quote">
+        
         &lt;!doctype html&gt;
         &lt;html lang="en"&gt;
             &lt;head&gt;
@@ -39,8 +40,7 @@
                 .
                 .
         &lt;/html&gt;
-    </span>
-                </p>
+    </span></p>
             </div>
         </section>
 
@@ -59,12 +59,42 @@
                         <li>an external CSS file</li>
                     </ol></p>
                 <p>To apply CSS from an external style sheet, we must include this tag to the &lt;head&gt; tag of the HTML file:
+                <span class="quote">
 
-    <span>&lt;link rel="stylesheet" href="style.css" type="text/css"&gt;</span></p>
-
-                <p>Finally, I learnt how to import fonts from Google Fonts to apply to my HTML page.</p>
+            &lt;link rel="stylesheet" href="style.css" type="text/css"&gt;
+                </span></p>   
+            <p>Finally, I learnt how to import fonts from Google Fonts to apply to my HTML page.</p>
             </div>
+        </section>
 
+        <section id="week3">
+            <div class="board">
+                <div class="board-header">
+                    <h2>Week 3: HTML Forms, Media Queries and Flex Box</h2>
+                    <img src="flex-box-img.png" alt="Flex Box Visualised">
+                </div>
+
+                <p>This week, I learnt about the different types of fields produced by the &lt;input&gt; tag such as date, password, radio and checkbox.
+                    I also learnt to use &lt;label&gt; to give meaning to my &lt;input&gt; tags.  
+                </p>
+                <p>
+                    I was introduced to media queries which allows me to create a responsive web design based on the size of the screen used to view the webpage.
+                    It goes like this: 
+                    <span class="quote">
+
+            @media(max-width/min-width: ...) {
+                selector {
+                    property: value;
+                }
+                .
+                .
+                .
+            }
+                    </span></p>
+                <p>Lastly, I learnt about flex boxes in HTML which uses "<span class="property">display</span>: <span class="value">flex;</span>". I also learnt how to arrange items in a flex box, using
+                    <span class="property">flow-wrap</span>, which is <span class="property">flex-flow</span> + <span class="property">flex-wrap</span>, <span class="property">flex-direction</span>,
+                    <span class="property">justify-content</span>, <span class="property">align-items</span> and <span class="property">align-content</span>.</p>
+            </div>
         </section>
 
     </body>

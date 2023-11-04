@@ -12,6 +12,14 @@ body {
 nav {
     font-size: 1.5em;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+}
 header {
     margin-top: 10vh;
 }
@@ -26,24 +34,39 @@ h2 {
     font-size: 2em;
 }
 li > a {
-    color: #293b0d;
+    color: #efefef;
+    display: block;
+    width: 8vw;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;  
+    background: #023612;  
+    border-right: 0.5vw solid #634314;
 }
-
-li > a:visited {
-    color: #571731;
+nav li:last-child {
+    border-bottom: 0.5vw solid #634314;
 }
-
 li > a:hover {
-    color: #ffffff;
+    background: #b03f70;
+    color: #efefef;
 }
 img {
-    width: 25vh;
+    height: 25vh;
+    margin-left: 10vh;
     border-radius: 1vh;
 }
-span {
+span.quote {
     font-style: italic;
     font-weight: bold;
     color: yellowgreen;
+    white-space: pre-wrap;
+}
+span.property {
+    color: #d1a954;
+}
+span.value {
+    color: #e339a5;
 }
 .board {
     position: relative;
@@ -60,13 +83,11 @@ span {
     align-items: center;
 }
 .board p {
-    white-space: pre-wrap;
     font-size: 1.25em;
-    margin-top: 5vh;
+    margin-top: 4vh;
 }
 #html {
     border: white solid 0.5vw;
-    aspect-ratio: 1;
 }
 
 .board li {
