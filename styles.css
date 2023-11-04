@@ -36,6 +36,15 @@ li > a:visited {
 li > a:hover {
     color: #ffffff;
 }
+img {
+    width: 25vh;
+    border-radius: 1vh;
+}
+span {
+    font-style: italic;
+    font-weight: bold;
+    color: yellowgreen;
+}
 .board {
     position: relative;
     width: 80vw;
@@ -57,7 +66,9 @@ li > a:hover {
 }
 #html {
     border: white solid 0.5vw;
-    width: 20vh;
     aspect-ratio: 1;
-    border-radius: 1vh;
+}
+
+.board li {
+    font-size: 1.25em;
 }
