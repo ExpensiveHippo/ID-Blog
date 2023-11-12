@@ -6,8 +6,10 @@
 body {
     background: #f5d79a;
     color: #efefef;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 nav {
     font-size: 1.5em;
@@ -15,13 +17,17 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     overflow: auto;
     left: 0;
 }
 header {
-    margin-top: 10vh;
+    margin: 5% 0;
+    display: flex;
+}
+section {
+    margin: 3%;
 }
 h1,h2 {
     font-family: Rubik, Ubuntu, sans-serif; 
@@ -39,21 +45,20 @@ li > a {
     width: 8vw;
     text-decoration: none;
     text-align: center;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;  
+    padding-top: 5%;
+    padding-bottom: 5%;  
     background: #023612;  
     border-right: 0.5vw solid #634314;
-}
-nav li:last-child {
-    border-bottom: 0.5vw solid #634314;
 }
 li > a:hover {
     background: #b03f70;
     color: #efefef;
 }
+nav li:last-child {
+    border-bottom: 0.5vw solid #634314;
+}
 img {
-    height: 25vh;
-    margin-left: 10vh;
+    height: 30vh;
     border-radius: 1vh;
 }
 span.quote {
@@ -75,7 +80,6 @@ span.value {
     border: 2vw solid #634314;
     border-radius: 2%;
     padding: 5vh 10vh;
-    margin-top: 15vh;
 }
 .board-header {
     display: flex;
@@ -86,10 +90,12 @@ span.value {
     font-size: 1.25em;
     margin-top: 4vh;
 }
+.board li {
+    font-size: 1.25em;
+}
 #html {
     border: white solid 0.5vw;
 }
 
-.board li {
-    font-size: 1.25em;
-}
+
+
