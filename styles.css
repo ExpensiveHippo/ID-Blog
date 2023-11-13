@@ -3,6 +3,7 @@
     box-sizing: border-box;
     font-family: Nunito, Ubuntu, serif;
 }
+
 body {
     background: #f5d79a;
     color: #efefef;
@@ -11,9 +12,11 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
 nav {
     font-size: 1.5em;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -22,23 +25,29 @@ nav ul {
     overflow: auto;
     left: 0;
 }
+
 header {
     margin: 5% 0;
     display: flex;
 }
+
 section {
     margin: 3%;
 }
+
 h1,h2 {
     font-family: Rubik, Ubuntu, sans-serif; 
 }
+
 h1 {
     color: #232323;
     font-size: 4em;
 }
+
 h2 {
     font-size: 2em;
 }
+
 li > a {
     color: #efefef;
     display: block;
@@ -50,29 +59,31 @@ li > a {
     background: #023612;  
     border-right: 0.5vw solid #634314;
 }
+
 li > a:hover {
     background: #b03f70;
     color: #efefef;
 }
+
 nav li:last-child {
     border-bottom: 0.5vw solid #634314;
 }
-img {
-    height: 30vh;
-    border-radius: 1vh;
-}
+
 span.quote {
     font-style: italic;
     font-weight: bold;
     color: yellowgreen;
     white-space: pre-wrap;
 }
+
 span.property {
     color: #d1a954;
 }
+
 span.value {
     color: #e339a5;
 }
+
 .board {
     position: relative;
     width: 80vw;
@@ -81,18 +92,36 @@ span.value {
     border-radius: 2%;
     padding: 5vh 10vh;
 }
+
 .board-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 30vh;
 }
+
+.board-header .board-icon {
+    height: 30vh;
+    max-width: 100%;
+    margin: 0;
+    margin-left: auto;
+}
+
+.board img {
+    max-width: 90%;
+    display: block;
+    margin: 4vh auto;
+    border-radius: 1vh;
+}
+
 .board p {
     font-size: 1.25em;
     margin-top: 4vh;
 }
+
 .board li {
     font-size: 1.25em;
 }
+
 #html {
     border: white solid 0.5vw;
 }
