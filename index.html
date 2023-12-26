@@ -2,144 +2,109 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css" type="text/css">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans|Nunito&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <title>ID Blog</title>
     </head>
-
     <body>
-        <nav>
-            <ul>
-                <li><a href="#week1">Week 1</a></li>
-                <li><a href="#week2">Week 2</a></li>
-                <li><a href="#week3">Week 3</a></li>
-                <li><a href="#week4">Week 4</a></li>
-                <li><a href="#week5">Week 5</a></li>
-            </ul>
-        </nav>
-
         <header>
-            <h1>ID Blog</h1>
+            <h1>Y1S2 Interactive Development</h1>
+            <p>The design of this page is not meant to be depicted as my "best".<span class="smilyface">&#9787;</span></p>
         </header>
-
-        <section>
-            <div class="board" id="week1">
-                <div class="board-header">
-                    <h2>Week 1: Introduction to HTML </h2>
-                    <img src="Images/html-logo.png" alt="HTML5 Logo" class="board-icon" id="html">
-                </div>
-
-                <p>As a start to my journey in Interactive Development (ID), I learnt about basic HTML tags like &lt;head&gt;, &lt;p&gt; and &lt;div&gt;. The structure of a basic html file is as follows:
-    <span class="quote">
-        
-        &lt;!doctype html&gt;
-        &lt;html lang="en"&gt;
-            &lt;head&gt;
-                &lt;meta charset="utf-8"&gt;
-            &lt;/head&gt;
-                .
-                .
-                .
-        &lt;/html&gt;
-    </span></p>
+        <div class="container">
+            <h3>Week 1: HTML</h3>
+            <ul>
+                <li><a href="https://web.dev/learn/html/document-structure">Structure</a></li>
+                <li><a href="https://www.w3schools.com/tags/ref_byfunc.asp">HTML Tags</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 2: Semantic Tags and CSS</h3>
+            <ul>
+                <li><a href="https://www.semrush.com/blog/semantic-html5-guide/">Semantic</a></li>
+                <li><a href="https://www.w3schools.com/cssref/css_selectors.php">Selectors</a></li>
+                <li><a href="https://www.w3schools.com/css/css_font_google.asp">Using Google Fonts</a></li>
+                <li><a href="https://www.w3schools.com/css/css_font_fallbacks.asp">Font Fallback</a></li>
+                <li><a href="https://www.w3schools.com/css/css_howto.asp">Ways to Include CSS</a></li>
+                <li><a href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/">Naming Conventions</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 3: Forms, Media Queries, Flexbox and more CSS</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_forms.asp">Forms</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Specificity</a></li>
+                <li><a href="https://www.w3schools.com/css/css_colors.asp">Colors</a></li>
+                <li><a href="https://www.w3schools.com/cssref/css_colors.php">Predefined Colors</a></li>
+                <li><a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">Media Queries</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">Positioning</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 4: Responsive Images</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/css_rwd_images.asp">Responsive Images</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 5: Whitespace</h3>
+            <div id="js-course-photos">
+                Course: <img src="Images/js-course-completion.png" >
+                Quiz 1: <img src="Images/js-course-quiz-1.png">
+                Quiz 2: <img src="Images/js-course-quiz-2.png">
+                Quiz 3: <img src="Images/js-course-quiz-3.png">
+                Quiz 4: <img src="Images/js-course-quiz-4.png">
+                Quiz 5: <img src="Images/js-course-quiz-5.png">              
             </div>
-        </section>
-
-        <section>
-            <div class="board" id="week2">
-                <div class="board-header">
-                    <h2>Week 2: Semantic Tags and Some CSS </h2>
-                    <img id="semantic" src="Images/semantic-elem-img.jpg" alt="Semantic Elements" class="board-icon">
-                </div>
-
-                <p>Continuing, I learnt how to structure a HTML page with semantic tags such as &lt;header&gt;, &lt;section&gt; and &lt;article&gt;.</p>
-                <p>I also learnt how to apply CSS to specific elements in the HTML page through 3 ways:
-                    <ol>
-                        <li>inline</li>
-                        <li>the &lt;style&gt; element</li>
-                        <li>an external CSS file</li>
-                    </ol></p>
-                <p>To apply CSS from an external style sheet, we must include this tag to the &lt;head&gt; tag of the HTML file:
-                <span class="quote">
-
-            &lt;link rel="stylesheet" href="style.css" type="text/css"&gt;
-                </span></p>   
-            <p>Finally, I learnt how to import fonts from Google Fonts to apply to my HTML page.</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="board" id="week3">
-                <div class="board-header">
-                    <h2>Week 3: HTML Forms, Media Queries and Flex Box</h2>
-                    <img src="Images/flex-box-img.png" alt="Flex Box Visualised" class="board-icon">
-                </div>
-
-                <p>This week, I learnt about the different types of fields produced by the &lt;input&gt; tag such as date, password, radio and checkbox.
-                    I also learnt to use &lt;label&gt; to give meaning to my &lt;input&gt; tags.  
-                </p>
-                <p>
-                    I was introduced to media queries which allows me to create a responsive web design based on the size of the screen used to view the webpage.
-                    It goes like this: 
-                    <span class="quote">
-
-            @media(max-width/min-width: ...) {
-                selector {
-                    property: value;
-                }
-                .
-                .
-                .
-            }
-                    </span></p>
-                <p>Lastly, I learnt about flex boxes in HTML which uses <span class="property">display</span>: <span class="value">flex</span>. I also learnt how to arrange items in a flex box, using
-                    <span class="property">flow-wrap</span>, which is <span class="property">flex-flow</span> + <span class="property">flex-wrap</span>, <span class="property">flex-direction</span>,
-                    <span class="property">justify-content</span>, <span class="property">align-items</span> and <span class="property">align-content</span>.</p>
-            </div>
-        </section>
-
-        <section>
-            <div class="board" id="week4">
-                <div class="board-header">
-                    <h2>Week 4: Putting It All Together</h2>
-                    <img src="Images/responsive-img.jpg" alt="Responsive Image Example" class="board-icon">
-                </div>
-                <p>
-                    For this week, I learnt how to create responsive images that will resize based on the width of the viewport which involves the use of
-                    <span class="property">height</span>: <span class="value">auto</span>. I also learnt how to use <span class="property">background-size</span>: 
-                    <span class="value">cover</span> which scales the size of the background image to fill the container. 
-                </p>
-                <p>
-                    Besides CSS, I also learnt about the basics of version control using Git and GitHub, which includes staging changes, commiting changes and pushing changes.
-                    I was also introduced to Markdown syntax which I used to write the README file in my repository for ID Assignment 1.
-                </p>
-            </div>
-        </section>
-
-        <section>
-            <div class="board" id="week5">
-                <div class="board-header">
-                    <h2>Week 5: Introduction to Javascript</h2>
-                    <img src="Images/javascript-logo.png" alt="Javascript Logo" class="board-icon">
-                </div>
-                <p>
-                    For OAL this week, I was tasked to complete the Linkedin Learning course "Learning the Javascript Language".
-                </p>
-                <img src="Images/js-course-completion.png" alt="Completed Course">
-                <p>
-                    I had to complete a quiz at the end of each chapter:
-                </p>
-                <ol>
-                    <li><img src="Images/js-course-quiz-1.png" alt="Quiz 1"></li>
-                    <li><img src="Images/js-course-quiz-2.png" alt="Quiz 2"></li>
-                    <li><img src="Images/js-course-quiz-3.png" alt="Quiz 3"></li>
-                    <li><img src="Images/js-course-quiz-4.png" alt="Quiz 4"></li>
-                    <li><img src="Images/js-course-quiz-5.png" alt="Quiz 5"></li>
-                </ol>
-            </div>
-        </section>
-
+        </div>
+        <div class="container">
+            <h3>Week 6: Javascript</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/js/js_operators.asp">Operators</a></li>
+                <li><a href="https://www.w3schools.com/js/js_datatypes.asp">Data Types</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Loops</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array Methods</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects">Objects</a></li>
+                <li><a href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">Var, Let or Const?</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 7: DOM</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/js/js_htmldom_elements.asp">Accessing Elements</a></li>
+                <li><a href="https://www.w3schools.com/jsref/dom_obj_event.asp">Events</a></li>
+                <li><a href="https://www.w3schools.com/js/js_json_syntax.asp">JSON</a></li>
+                <li><a href="https://www.digitalocean.com/community/tutorials/js-introduction-localstorage-sessionstorage">Local Storage and Session Storage</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 8: Fetch and jQuery</h3>
+            <ul>
+                <li><a href="https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup">Script Tags Where??</a></li>
+                <li><a href="https://www.w3schools.com/js/js_htmldom_nodelist.asp">Node Lists</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">Data Attributes</a></li>
+                <li><a href="https://www.geeksforgeeks.org/promise-vs-callback-in-javascript/">Promises(Fetch) and Callbacks(XHR)</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Fetch</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Week 9: Bootstrap</h3>
+            <ul>
+                <li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap Documentation</a></li>
+                <li><a href="https://www.chartjs.org/docs/latest/">Chart.js Documentation</a></li>
+                <li><a href="https://youtu.be/4sosXZsdy-s?si=NIJ8E3r2bEwbi5iH">Boostrap Example</a></li>
+                <li><a href="https://youtu.be/sE08f4iuOhA?si=TWFVI2jfkd_ICWvq">Chart.js Example</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Other Useful Links</h3>
+            <ul>
+                <li><a href="https://picsum.photos/">Picsum</a></li>
+                <li><a href="https://caniuse.com/">Can I Use</a></li>
+                <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+            </ul>
+        </div>
     </body>
-</html>  
+</html>
